@@ -62,9 +62,9 @@
 - Metadata and Open Graph configured.
 - OG image: `public/og-image.svg` (convert to PNG 1200x630 if a raster OG image is preferred).
 - QR script ready: `scripts/make-qr.mjs` (requires confirmed final URL).
-- **Not yet deployed.** User must create/import the project in Vercel and confirm the final URL.
-- **QR not yet generated.** Run `node scripts/make-qr.mjs <final-url>` only after the URL is confirmed.
-- No QR scanning on a real device has been performed.
+- **Deployed.** Final URL: https://shamii-woad.vercel.app/
+- **QR generated.** Outputs: `public/qr/qr.svg`, `public/qr/qr.png` (plum on cream, ECC H, 1024px).
+- QR scanning on a real device has **not** been performed (user to verify before printing).
 
 ## 10. Final Delivery Checklist:
 

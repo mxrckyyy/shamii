@@ -162,4 +162,15 @@ Chronological record of meaningful project changes. Dates recorded only when kno
 - **Validation performed:** `npm run build` succeeded (index.html 1.41 kB). QR script syntax checked (`node --check` passed). No QR generated (final URL not confirmed). No deployment performed.
 - **Outstanding issues:** Vercel deployment pending user action; final URL pending; QR generation pending final URL; real-device QR scan pending.
 
+## Phase 11 — Metadata, Deployment, and QR Code (Final)
+
+- **Date:** Not recorded (this session).
+- **Main changes:**
+  - Final URL confirmed: https://shamii-woad.vercel.app/
+  - Generated QR code: `public/qr/qr.svg`, `public/qr/qr.png` (plum on cream, ECC H, 1024px).
+  - Updated deployment docs with final URL and QR status.
+- **Files affected:** public/qr/qr.svg, public/qr/qr.png, docs/DEPLOYMENT.md, docs/PROJECT_CONTEXT.md, docs/IMPLEMENTATION_PLAN.md, docs/CHANGELOG.md.
+- **Validation performed:** QR script ran successfully; output files exist (PNG 7835 bytes, SVG 2095 bytes). Real-device scan not performed.
+- **Outstanding issues:** Real-device QR scan pending; content placeholders remain; visual verification pending.
+
 ## (Future phases will be appended here.)

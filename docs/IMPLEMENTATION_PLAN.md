@@ -335,7 +335,7 @@ Current status: **Phase 0 in progress.** No phases completed yet.
 
 ## Phase 11 — Metadata, Deployment, and QR Code
 
-**Status:** Partially completed (preparation done; deployment + QR generation pending user action)
+**Status:** Completed (final URL confirmed; QR generated)
 
 **Objective:** Publish and prepare for sharing.
 
