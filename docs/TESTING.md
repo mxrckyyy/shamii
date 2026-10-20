@@ -122,7 +122,23 @@ Legend: [ ] pending, [x] passed, [~] partial/known issue, [N/A] not applicable.
 - [ ] Scanned on at least one real device.
 - [ ] Points to correct site.
 
-## 17. Manual vs Automated Test Status
+## 16.5 Romantic Redesign Notes
+
+- Primary greeting verified in content.js and components: "Happy Monthsary, Mommy!".
+- 22 Reasons and Timeline sections removed; no references remain in src.
+- Gallery now references 42 images under public/images/gallery/.
+- Build succeeds after redesign.
+
+## 16.6 Final QA Pass
+
+- [x] All 42 gallery files verified present (`public/images/gallery/01.jpg` … `42.jpg`).
+- [x] Build succeeds after refinement edits.
+- [~] Responsive widths (360/390/768/1280): code review only; no visual verification.
+- [~] Accessibility: code review (aria labels, focus states, reduced motion) — not browser-tested.
+- [ ] Real-device QR scan: not performed.
+- [ ] Real-device visual verification: not performed.
+
+## 17. Manual vs Automated Test Status::
 
 - Automated: none configured yet (no test framework). Lint not configured yet.
 - Manual checks documented above; mark only when performed.

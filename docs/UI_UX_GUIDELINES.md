@@ -181,7 +181,17 @@ Mobile-first: base styles = mobile; add `md:`, `lg:` enhancements. Required test
 - Confetti on every render.
 - Autoplay music.
 
-## 20. UI Review Checklist
+## 19.5 Romantic Redesign Notes
+
+- Primary greeting: "Happy Monthsary, Mommy!".
+- Ambient floating hearts (CSS-based, lightweight, disabled under reduced motion).
+- Hero uses staggered reveal, gold divider, handwritten accent.
+- Gallery uses polaroid-style cards with subtle rotation and cream frames.
+- Letter uses paper-style card with repeating subtle lines and large quotation mark accent.
+- Envelope includes inner paper peek and handwritten corner note.
+- Removed 22 Reasons and Timeline sections.
+
+## 20. UI Review Checklist:
 
 For each phase/section:
 - [ ] Mobile (360, 390) no overflow, readable, touch targets ok.

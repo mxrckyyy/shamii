@@ -18,20 +18,20 @@ export default function Counter() {
       <Container>
         <SectionHeading
           eyebrow="Our time together"
-          title="Every moment counts"
-          subtitle="Counting from February 22, 2026."
+          title="Every moment with you counts"
+          subtitle="Counting our days together since February 22, 2026."
           align="center"
         />
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
           {items.map((item) => (
             <div
               key={item.label}
-              className="rounded-2xl bg-blush/60 px-3 py-5 text-center shadow-soft sm:py-6"
+              className="rounded-3xl bg-gradient-to-br from-blush/70 to-cream px-3 py-5 text-center shadow-soft sm:py-6"
             >
-              <div className="font-serif text-3xl tabular-nums text-ink sm:text-4xl">
+              <div className="font-serif text-3xl tabular-nums text-plum sm:text-4xl">
                 {String(item.value).padStart(2, '0')}
               </div>
-              <div className="mt-1 text-xs font-medium uppercase tracking-[0.18em] text-plum/70">
+              <div className="mt-1 text-xs font-medium uppercase tracking-[0.18em] text-ink/60">
                 {item.label}
               </div>
             </div>

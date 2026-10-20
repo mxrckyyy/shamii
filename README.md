@@ -34,5 +34,7 @@ npm run dev
 ## Notes
 
 - Mobile-first, accessible, reduced-motion friendly.
-- All personal content lives in `src/data/content.js` (to be created).
+- Primary greeting: "Happy Monthsary, Mommy!".
+- Personal content lives in `src/data/content.js`.
+- Personal photos go in `public/images/gallery/` (01.jpg … 42.jpg); update captions/alt text in content.js.
 - `noindex,nofollow` is an indexing preference, not access control.

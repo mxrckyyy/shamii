@@ -173,4 +173,32 @@ Chronological record of meaningful project changes. Dates recorded only when kno
 - **Validation performed:** QR script ran successfully; output files exist (PNG 7835 bytes, SVG 2095 bytes). Real-device scan not performed.
 - **Outstanding issues:** Real-device QR scan pending; content placeholders remain; visual verification pending.
 
+## Romantic Redesign — Happy Monthsary, Mommy!
+
+- **Date:** Not recorded (this session).
+- **Main changes:**
+  - Changed primary greeting to "Happy Monthsary, Mommy!" across hero, envelope, finale, footer.
+  - Removed "22 Reasons" section (component, data, flip-card styles) and "Our Story" timeline (component, data, timeline styles).
+  - Gallery now uses 42 real photos from `public/images/gallery/01.jpg` … `42.jpg` (copied from `public/images/Pictures 8/`).
+  - Added `AmbientHearts` effect and romantic gradients/glows.
+  - Redesigned hero, envelope, counter, gallery (polaroid), letter (paper style), finale, footer for a more romantic feel.
+  - Centralized content updated (`content.js`): removed reasons/timeline, added finale/footer content, gallery array of 42.
+  - Preserved deployment and QR (final URL unchanged).
+- **Files affected:** src/App.jsx, src/data/content.js, src/components/sections/*, src/components/effects/AmbientHearts.jsx, src/index.css, public/images/gallery/*, docs/*.
+- **Validation performed:** `npm run build` succeeded. No visual/browser verification performed (no automation available).
+- **Outstanding issues:** Visual verification pending; content personalization pending; confetti untested on real devices.
+
+## Final QA and Refinement Pass
+
+- **Date:** Not recorded (this session).
+- **Main changes:**
+  - Verified all 42 gallery images exist at `public/images/gallery/01.jpg` … `42.jpg`.
+  - Added `decoding="async"` and `group` class to gallery images for performance and hover effect.
+  - Added `text-balance` to hero heading.
+  - Confirmed no leftover references to removed sections in `src`.
+  - Ran production build (success).
+- **Files affected:** src/components/sections/Gallery.jsx, src/components/sections/Hero.jsx, docs/*.
+- **Validation performed:** `npm run build` succeeded; file existence check for 42 images passed.
+- **Outstanding issues:** No visual/browser verification performed. Content placeholders remain. Confetti untested on real devices. Git has untracked photo folders.
+
 ## (Future phases will be appended here.)

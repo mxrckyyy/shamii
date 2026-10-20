@@ -36,24 +36,21 @@ export default function Finale() {
     setCelebrated(true);
   };
 
+  const f = content.finale;
+
   return (
-    <section ref={ref} className="relative overflow-hidden bg-cream py-20 sm:py-28">
+    <section ref={ref} className="relative overflow-hidden bg-gradient-to-b from-cream via-blush/30 to-cream py-20 sm:py-28">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 opacity-70"
       >
-        <div className="absolute left-1/4 top-1/3 h-40 w-40 rounded-full bg-rose/20 blur-3xl" />
-        <div className="absolute right-1/4 bottom-1/4 h-44 w-44 rounded-full bg-gold/15 blur-3xl" />
+        <div className="absolute left-1/4 top-1/3 h-44 w-44 rounded-full bg-rose/20 blur-3xl" />
+        <div className="absolute right-1/4 bottom-1/4 h-48 w-48 rounded-full bg-gold/15 blur-3xl" />
       </div>
 
       <Container>
         <div className="mx-auto max-w-2xl text-center">
-          <SectionHeading
-            eyebrow="Finale"
-            title="Happy 8 Months, Bel"
-            subtitle="Eight months of learning, growing, and choosing each other."
-            align="center"
-          />
+          <SectionHeading eyebrow={f.eyebrow} title={f.title} subtitle={f.subtitle} align="center" />
 
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -62,8 +59,7 @@ export default function Finale() {
             transition={{ duration: reduce ? 0 : 0.6, delay: reduce ? 0 : 0.15 }}
             className="mt-8 text-base leading-relaxed text-ink/80 sm:text-lg"
           >
-            I am grateful for you, for your effort, and for the way you show up every day.
-            Here is to us, and to everything still ahead.
+            {f.message}
           </motion.p>
 
           {!reduce && (

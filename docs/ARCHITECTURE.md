@@ -153,7 +153,15 @@ No backend/database. No TypeScript.
 - Code-split only if bundle grows large (not initially).
 - Avoid re-render storms (confetti not per render; interval updates scoped to Counter).
 
-## 16. Future Changes
+## 16. Romantic Redesign Notes (current)
+
+- Removed sections: `Reasons`, `Timeline`, and their data (`content.reasons`, `content.timeline`).
+- Removed components: `FlipCard`, `TimelineItem`.
+- Added: `AmbientHearts` effect; gallery now maps 42 entries from `content.gallery` to `/images/gallery/01.jpg` … `42.jpg`.
+- Primary greeting: "Happy Monthsary, Mommy!" (hero, envelope, finale, footer).
+- Photo placeholder path: `public/images/gallery/01.jpg` (first gallery image) or any entry in `src/data/content.js` → `gallery`.
+
+## 17. Future Changes
 
 - Personalize content by editing `src/data/content.js` only.
 - Add real photos to `public/images/` and update paths/captions.

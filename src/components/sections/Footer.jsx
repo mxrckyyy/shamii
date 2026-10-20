@@ -9,13 +9,9 @@ export default function Footer() {
     <footer className="bg-cream py-12">
       <Container>
         <div className="mx-auto max-w-2xl text-center">
-          <p className="font-serif text-xl text-ink">Our Little Universe</p>
-          <p className="mt-2 text-sm text-ink/60">
-            Made with love by Marc, for Bel.
-          </p>
-          <p className="mt-1 text-xs text-ink/40">
-            Celebrating eight months, on October 22, 2026.
-          </p>
+          <p className="font-serif text-xl text-ink">{content.footer.title}</p>
+          <p className="mt-2 text-sm text-ink/60">{content.footer.line1}</p>
+          <p className="mt-1 text-xs text-ink/40">{content.footer.line2}</p>
 
           {/* Easter egg */}
           <div className="mt-6">
@@ -29,7 +25,7 @@ export default function Footer() {
             </button>
             {eggOpen && (
               <p className="mt-3 font-handwriting text-lg text-plum/80">
-                You found it. Thank you for reading all the way to the end.
+                {content.footer.easterEgg}
               </p>
             )}
           </div>

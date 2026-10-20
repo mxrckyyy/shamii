@@ -212,8 +212,17 @@ Suggested, not mandatory. Only create components with clear responsibility. If s
 - **Phase 10 (completed):** Production build, preview, counter validation, 22 reasons verified.
 - **Phase 11 (completed):** Metadata + Open Graph configured; OG image SVG created; QR generation script used to generate `public/qr/qr.svg` and `public/qr/qr.png` for final URL https://shamii-woad.vercel.app/. Deployment performed by user (final URL provided).
 - **Completed phases:** Phase 0, Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, Phase 8, Phase 9, Phase 10. Phase 11 partially completed.
-- **Current phase:** Phase 11 partially completed; awaiting user actions for deployment/QR.
-- **Known issues:** Site not yet deployed; QR not yet generated; content placeholders remain; no real-device visual verification.
+- **Current phase:** Romantic redesign completed in code; deployment/QR preserved (final URL https://shamii-woad.vercel.app/).
+- **Known issues:** Content placeholders remain; no real-device visual verification; confetti untested on real devices.
+
+## 17. Romantic Redesign (current)
+
+- Primary greeting changed to "Happy Monthsary, Mommy!" (hero, envelope title, finale, footer).
+- Removed "22 Reasons" section and "Our Story" timeline (components, data, styles).
+- Gallery now uses 42 real photos from `public/images/gallery/` (01.jpg … 42.jpg).
+- Added ambient floating hearts, romantic gradients, paper-style letter, polaroid gallery.
+- Personal photo placeholder path: `public/images/gallery/01.jpg` (first gallery image) or any entry in `src/data/content.js` gallery array.
+- Deployment and QR preserved; final URL unchanged.
 - **Known issues:** No real browser/device visual verification. Content placeholders remain. Confetti untested on real devices. 9 dev-tooling audit vulnerabilities remain.
 - **Known issues:** No real browser/device visual verification performed (no automation available). All responsive checks are code-review based. Content placeholders remain. Confetti untested on real devices.
 - **Known issues:** Confetti not tested on real devices. Visual verification pending. Easter egg very subtle.

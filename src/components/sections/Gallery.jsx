@@ -36,8 +36,8 @@ export default function Gallery() {
       <Container>
         <SectionHeading
           eyebrow="Gallery"
-          title="Little moments, captured"
-          subtitle="A few frames from our days together."
+          title="Moments I want to keep"
+          subtitle="A few frames from our days together, Mommy."
           align="center"
         />
 
@@ -56,20 +56,23 @@ export default function Gallery() {
                         className="min-w-0 flex-[0_0_82%] px-3 sm:flex-[0_0_60%] md:flex-[0_0_34%]"
                       >
                         <figure
-                          className="mx-auto w-full max-w-xs rounded-sm bg-white p-3 pb-6 shadow-card"
+                          className="group mx-auto w-full max-w-xs rounded-sm bg-cream p-3 pb-7 shadow-card ring-1 ring-plum/5"
                           style={{ transform: `rotate(${rotation}deg)` }}
                         >
-                          <div className="aspect-[4/5] overflow-hidden rounded-sm bg-blush/40">
+                          <div className="aspect-[4/5] overflow-hidden rounded-sm bg-blush/30">
                             <img
                               src={item.src}
                               alt={item.alt}
                               loading="lazy"
-                              className="h-full w-full object-cover"
+                              decoding="async"
+                              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                             />
                           </div>
-                          <figcaption className="mt-3 text-center font-handwriting text-lg text-ink/80">
-                            {item.caption}
-                          </figcaption>
+                          {item.caption && (
+                            <figcaption className="mt-3 text-center font-handwriting text-lg text-plum/80">
+                              {item.caption}
+                            </figcaption>
+                          )}
                         </figure>
                       </div>
                     );
