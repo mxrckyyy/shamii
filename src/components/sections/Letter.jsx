@@ -33,7 +33,7 @@ export default function Letter() {
             <div className="relative space-y-5 text-[1.0625rem] leading-[1.8] text-ink/90 sm:text-[1.125rem]">
               {letter.paragraphs.map((p, i) => {
                 const isSignature = p === 'Marc';
-                const isGreeting = p === 'Mommy,';
+                const isGreeting = p === 'Happy Monthsary Mommy!';
                 const isClosing = p === 'With all my love,';
                 return (
                   <p
