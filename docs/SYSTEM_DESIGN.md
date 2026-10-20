@@ -155,7 +155,7 @@ The journey is linear and scroll-driven; no navigation menu required. Anchor lin
 - Build: `npm run build` → `dist/`.
 - Deploy to Vercel (free). Document final URL.
 - Metadata/OG in `index.html`.
-- `scripts/make-qr.mjs` generates SVG + PNG (plum on cream, ECC H) from final URL.
+- `scripts/make-qr.mjs` generates SVG + PNG (deep rose `#7A2E4D` on warm cream `#FFF9F4`, centered `MiiMii` label, ECC H) from final URL.
 - Test QR on devices; document status.
 
 ## 16. Important Edge Cases

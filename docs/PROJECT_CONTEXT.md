@@ -210,7 +210,7 @@ Suggested, not mandatory. Only create components with clear responsibility. If s
 - **Phase 8 (completed):** Finale, Footer, Easter egg, optional MusicToggle.
 - **Phase 9 (completed):** UI/UX and responsive audit with fixes.
 - **Phase 10 (completed):** Production build, preview, counter validation, 22 reasons verified.
-- **Phase 11 (completed):** Metadata + Open Graph configured; OG image SVG created; QR generation script used to generate `public/qr/qr.svg` and `public/qr/qr.png` for final URL https://shamii-woad.vercel.app/. Deployment performed by user (final URL provided).
+- **Phase 11 (completed):** Metadata + Open Graph configured; OG image SVG created; QR generation script used to generate `public/qr/qr.svg` and `public/qr/qr.png` for final URL https://shamii-woad.vercel.app/ with a centered "MiiMii" label (deep rose on warm cream). Deployment performed by user (final URL provided).
 - **Completed phases:** Phase 0, Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, Phase 8, Phase 9, Phase 10. Phase 11 partially completed.
 - **Current phase:** Romantic redesign completed in code; deployment/QR preserved (final URL https://shamii-woad.vercel.app/).
 - **Known issues:** Content placeholders remain; no real-device visual verification; confetti untested on real devices.

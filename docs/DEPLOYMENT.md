@@ -47,7 +47,7 @@
 - Generate only after final URL is confirmed.
 - Script: `scripts/make-qr.mjs` using `qrcode` package.
 - Output: SVG and high-resolution PNG.
-- Style: plum (`#5C3A5E`) on cream (`#FFF9F4`), error correction level H, adequate quiet zone.
+- Style: deep rose/burgundy (`#7A2E4D`) on warm cream (`#FFF9F4`), centered white rounded-rectangle label reading `MiiMii` in dark burgundy, error correction level H, adequate quiet zone.
 - Verify readability at intended printed size (handmade card).
 - Test scanning on actual devices where possible; document actual status.
 
@@ -63,7 +63,7 @@
 - OG image: `public/og-image.svg` (convert to PNG 1200x630 if a raster OG image is preferred).
 - QR script ready: `scripts/make-qr.mjs` (requires confirmed final URL).
 - **Deployed.** Final URL: https://shamii-woad.vercel.app/
-- **QR generated.** Outputs: `public/qr/qr.svg`, `public/qr/qr.png` (plum on cream, ECC H, 1024px).
+- **QR generated.** Outputs: `public/qr/qr.svg`, `public/qr/qr.png` (deep rose on warm cream with centered `MiiMii` label, ECC H, 1024px).
 - QR scanning on a real device has **not** been performed (user to verify before printing).
 
 ## 10. Final Delivery Checklist:

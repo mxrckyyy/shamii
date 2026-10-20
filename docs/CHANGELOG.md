@@ -211,4 +211,15 @@ Chronological record of meaningful project changes. Dates recorded only when kno
 - **Files affected:** src/components/sections/EnvelopeGate.jsx, docs/CHANGELOG.md.
 - **Validation performed:** `npm run build` succeeded. No visual testing performed.
 
+## QR Code Customization - "MiiMii" Center Label
+
+- **Date:** 2026-10-20 (session).
+- **Main changes:**
+  - Updated `scripts/make-qr.mjs` to generate a romantic QR code (deep rose `#7A2E4D` modules on warm cream `#FFF9F4`) with a centered white rounded-rectangle label reading `MiiMii` in dark burgundy using embedded Cormorant Garamond.
+  - Regenerated `public/qr/qr.svg` and `public/qr/qr.png` (ECC level H, 1024px PNG, 4-module quiet zone) encoding exactly `https://shamii-woad.vercel.app/`.
+  - Added `@resvg/resvg-js` as a dev dependency to rasterize the SVG to PNG.
+- **Files affected:** scripts/make-qr.mjs, public/qr/qr.svg, public/qr/qr.png, package.json, package-lock.json, docs/*.
+- **Validation performed:** Decoded both PNG and SVG-derived PNG with jsQR -> `https://shamii-woad.vercel.app/`. `npm run build` succeeded.
+- **Outstanding issues:** Real-device scan not performed. Visual inspection of printed size not performed.
+
 ## (Future phases will be appended here.)
