@@ -63,8 +63,13 @@ export default function EnvelopeGate({ onOpen }) {
             <div className="absolute left-1/2 top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-plum text-cream shadow-soft">
               <span aria-hidden="true" className="text-xl">♥</span>
             </div>
-            {/* decorative corners */}
-            <span aria-hidden="true" className="absolute left-3 top-3 font-handwriting text-xs text-plum/50">for you</span>
+            {/* centered label */}
+            <span
+              aria-hidden="true"
+              className="absolute bottom-3 left-0 right-0 z-10 text-center font-handwriting text-sm text-plum/70 sm:text-base"
+            >
+              For You
+            </span>
           </motion.div>
 
           <span className="text-sm font-medium text-plum transition-opacity group-hover:opacity-80">

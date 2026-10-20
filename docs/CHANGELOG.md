@@ -201,4 +201,14 @@ Chronological record of meaningful project changes. Dates recorded only when kno
 - **Validation performed:** `npm run build` succeeded; file existence check for 42 images passed.
 - **Outstanding issues:** No visual/browser verification performed. Content placeholders remain. Confetti untested on real devices. Git has untracked photo folders.
 
+## Envelope "For You" Text Fix
+
+- **Date:** Not recorded (this session).
+- **Main changes:**
+  - Moved the envelope's "For You" label from a clipped top-left corner to a centered bottom position inside the envelope.
+  - Increased opacity and z-index so it stays visible above the envelope body/flap.
+  - Kept the romantic handwriting styling.
+- **Files affected:** src/components/sections/EnvelopeGate.jsx, docs/CHANGELOG.md.
+- **Validation performed:** `npm run build` succeeded. No visual testing performed.
+
 ## (Future phases will be appended here.)

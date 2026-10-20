@@ -28,16 +28,6 @@ export const content = {
     title: 'Mommy',
     intro:
       'This little space was made for you — to remind you how loved, appreciated, and special you are.',
-    bel: {
-      name: 'Bel',
-      body:
-        'You give so much of yourself every day — your time, your effort, your care. I see it all, and I am so proud of you for it.',
-    },
-    marc: {
-      name: 'Marc',
-      body:
-        'I made this for you, Mommy, because you deserve to feel how much you matter. Not just today, but every single day.',
-    },
     closing:
       'Thank you for being you. Thank you for choosing us. I love you more than words can hold.',
   },
