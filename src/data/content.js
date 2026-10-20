@@ -20,14 +20,14 @@ export const content = {
   },
   envelope: {
     instruction: 'Tap to open your letter',
-    hint: 'A little something, from Marc',
+    hint: 'A little something, from ShamSham',
     title: 'Our Little Universe',
   },
   about: {
     eyebrow: 'For you',
     title: 'Mommy',
     intro:
-      'This little space was made for you — to remind you how loved, appreciated, and special you are.',
+      'This little space was made for you to remind you how loved, appreciated, and special you are.',
     closing:
       'Thank you for being you. Thank you for choosing us. I love you more than words can hold.',
   },
@@ -42,7 +42,7 @@ export const content = {
       'I promise to keep supporting you, to keep showing up for you, and to keep choosing us, today and in the days ahead.',
       'And even though we see each other at school every day, I still miss you every day.',
       'With all my love,',
-      'Marc',
+      'ShamSham',
     ],
   },
   finale: {
@@ -54,7 +54,7 @@ export const content = {
   },
   footer: {
     title: 'Our Little Universe',
-    line1: 'Made with love by Marc, for Mommy.',
+    line1: 'Made with love by ShamSham, for Mommy.',
     line2: 'Celebrating our monthsary, on October 22, 2026.',
     easterEgg: 'You found it. Thank you for reading all the way to the end.',
   },
